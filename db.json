@@ -1,0 +1,46 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "description": "Delicious pizza with various toppings",
+      "price": "20",
+      "image": "https://i.ibb.co/qB1QnkC/pizza.jpg"
+    },
+    {
+      "name": "Burger",
+      "description": "A classic burger with fries",
+      "price": "12",
+      "image": "https://i.ibb.co/v1hvqBN/burger.jpg",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Pasta",
+      "description": "Pasta is delicious",
+      "price": "240",
+      "image": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&ga=GA1.1.399159756.1672419906&semt=sph"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Fry",
+      "description": "Chicken fry is Great",
+      "price": "12",
+      "image": "https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.399159756.1672419906&semt=sph"
+    },
+    {
+      "id": 5,
+      "name": "Biriyani",
+      "description": "The best food",
+      "price": "200",
+      "image": "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?size=626&ext=jpg&ga=GA1.1.399159756.1672419906&semt=sph"
+    },
+    {
+      "id": 6,
+      "name": "Taco",
+      "description": "Maxican food",
+      "price": "22",
+      "image": "https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg?size=626&ext=jpg&ga=GA1.1.399159756.1672419906&semt=sph"
+    }
+  ]
+}
