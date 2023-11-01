@@ -2,7 +2,7 @@
 
 First I need to check that the production branch is up to date with the master branch. I do this by running `git checkout production` and then `git merge master`. If there are any conflicts, I will need to resolve them before continuing.
 
-Next, I create a new branch called "hotfix" off of the production branch. I do this by running `git checkout -b hotfix production`.
+Next, I create a new branch called "hotfix" off of the production branch. I do this by running `git checkout -b hotfix/my-issue/issue_id`.
 
 I then make the necessary changes to the code in the hotfix branch and commit them with `git commit -m "Fix bug in production code"`.
 
