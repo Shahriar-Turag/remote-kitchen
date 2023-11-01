@@ -128,9 +128,12 @@ const FoodItems = () => {
 			<button className={styles.submitButton} onClick={handleAddClick}>
 				Add Food Item
 			</button>
-			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-[100px]'>
+			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-[100px] '>
 				{foods.map((food: Food) => (
-					<div key={food.id} className='m-4'>
+					<div
+						key={food.id}
+						className='m-4 flex justify-center items-center'
+					>
 						<Card sx={{ maxWidth: 345 }}>
 							<CardMedia
 								component='img'
