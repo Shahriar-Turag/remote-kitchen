@@ -1,7 +1,5 @@
 ## Answer 1:
 
-To submit a hotfix in a Git project like "Alex's Kitchen" from the "Remote Kitchen" team, you would typically follow a branching and pull request (PR) workflow. Here's how you can create and merge a hotfix branch:
-
 First I need to check that the production branch is up to date with the master branch. I do this by running `git checkout production` and then `git merge master`. If there are any conflicts, I will need to resolve them before continuing.
 
 Next, I create a new branch called "hotfix" off of the production branch. I do this by running `git checkout -b hotfix production`.
